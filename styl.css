@@ -1,0 +1,725 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: white; */
+    /* background-color: black; */
+    scroll-behavior: smooth;
+    cursor: pointer;
+
+}
+
+a {
+    color: white;
+}
+
+header {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.608);
+}
+
+.section1 {
+    background-image: url("FOOD1.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100VH;
+    color: white;
+    /* visibility: hidden; */
+    /* transform: translateX(-50PX); */
+    transition: .2s ease-out;
+}
+
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 50PX; */
+    left: 50PX;
+}
+
+.logo {
+    border-bottom: 5PX solid;
+    border-top: 5px solid;
+    text-transform: uppercase;
+    position: relative;
+    left: 50PX;
+    top: 50PX;
+    font-size: 1.5em;
+}
+
+.lien a {
+    margin-left: 15PX;
+    font-size: 17PX;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: .5s ease-out;
+    position: relative;
+    top: 50PX;
+    right: 20PX;
+    font-weight: bold;
+}
+
+.lien a:hover {
+    border-bottom: 3PX solid white;
+
+}
+
+.centre {
+    text-align: center;
+    margin-top: 200PX;
+}
+
+.centre h1 {
+    font-size: 2.6EM;
+    margin: 20PX;
+}
+
+.reserver {
+    text-align: center;
+    left: 570PX;
+    top: 20PX;
+    position: relative;
+    font-size: 1.5em;
+    font-weight: bold;
+    border: 2PX solid;
+    padding: 5PX 15PX;
+    text-decoration: none;
+    transition: .6s ease;
+    text-transform: capitalize;
+    width: 200PX;
+
+}
+
+.reserver:hover {
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+.section2 {
+    margin: 100PX;
+    color: black;
+    
+}
+
+.menu {
+    display: grid;
+    gap: 20PX;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.gauche img {
+    width: 250PX;
+    border-radius: 10PX;
+}
+
+.ima {
+    width: 100PX;
+}
+.gauche:hover{
+    /* filter: blur(10PX); */
+}
+input::placeholder{
+    color: white;
+}
+input[date]::placeholder{
+    color: white;
+}
+
+.gauche {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.image {
+    box-shadow: 0PX -10PX -10PX black;
+}
+
+.droite h1 {
+    text-align: center;
+    font-size: 2em;
+    color: orangered;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.image:hover{
+    /* filter: blur(0px); */
+
+}
+/* .leblur:hover{
+    filter: blur(10PX);
+} */
+
+.image img:hover {
+    box-shadow: 0PX 10PX 20PX black;
+    transform: scale(1.1);
+    transition: .5s;
+    filter: none;
+}
+
+.favor {
+    text-align: center;
+    margin-bottom: 20PX;
+    border-bottom: 5PX solid orangered;
+
+}
+
+.cliquer {
+    color: white;
+    position: relative;
+    left: 190PX;
+    top: 80PX;
+    border: 2PX solid transparent;
+    padding: 10PX 20PX;
+    background-color: orangered;
+    border-radius: 20PX;
+    text-decoration: none;
+    font-size: 1.5EM;
+
+}
+
+.video {
+    width: 100%;
+    position: relative;
+}
+
+.mon_header {
+    height: 120VH;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.608);
+    transform: translateY(-720PX);
+}
+
+.section3 {
+    margin-top: 30PX;
+    height: 100VH;
+}
+
+.boite {
+    width: 340PX;
+    border: 3PX solid white;
+    height: 340PX;
+    border-radius: 10PX;
+    text-align: center;
+    transform: translate(70PX, -1205PX);
+    color: white;
+    /* transform: scale(1.2); */
+
+
+}
+
+.box .lea a {
+    color: white;
+}
+
+.box .lea {
+    background-color: black;
+}
+
+.box {
+    color: black;
+    background-color: white;
+    transform: translate(60PX, -1109PX);
+}
+
+.boite h1 {
+    text-transform: capitalize;
+    font-size: 2em;
+    margin: 20PX;
+    font-weight: bold;
+
+}
+
+.contenu {
+    font-weight: bold;
+    line-height: 25PX;
+}
+
+.lea a {
+    text-decoration: none;
+    font-size: 1.5em;
+    transform: translateX(-80PX);
+    font-weight: bold;
+    color: black;
+}
+
+.lea:hover {
+    /* background-color: white; */
+    transform: scale(1.1);
+
+}
+
+.lea a:hover {
+    /* background-color: white; */
+    color: black;
+    border: none;
+}
+
+.lea {
+    /* margin-top: 30PX; */
+    border: 2PX solid white;
+    padding: 10PX 30PX;
+    width: 150PX;
+    margin-left: 100PX;
+    margin-top: 30PX;
+    border-radius: 20PX;
+    transition: .6s ease;
+    background-color: white;
+    color: black;
+
+    /* transform: translateY(100PX */
+}
+
+.grande {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10PX;
+    background-color: red;
+    height: 0;
+}
+
+.section4 {
+    margin-top: 350PX;
+    /* height: 200PX; */
+    /* height: 100VH; */
+}
+
+.fin {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: white;
+    background-color: black;
+    height: 400PX;
+}
+
+.fin li {
+    font-size: 1.5EM;
+    transform: translate(60PX, 90PX);
+}
+
+footer {
+    text-align: center;
+    transform: translateY(-50PX);
+    font-size: 1em;
+    color: white;
+}
+
+.ACCEUIL {
+    border: 2PX SOLID transparent;
+    padding: 9PX 15PX;
+    background-color: white;
+    color: black;
+    border-radius: 20PX;
+}
+
+.ACCEUIL:hover {
+    transform: scale(1.2);
+}
+
+.section5 {
+    /* margin-top: 300PX; */
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 90; */
+    background: url('SALZ2.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100VH;
+    /* opacity: 0; */
+    visibility: hidden;
+    transition: 1s;
+    /* transform: translateX(-200PX); */
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transform: translateX(-1000px);
+    transition: .5s ease-out;
+    /* background-color: rgba(0, 0, 0, 0.378); */
+}
+
+.header2 {
+    /* background:url('SALZ2.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    height: 100VH;
+    /* z-index: -1;
+    
+    filter: blur(12PX); */
+    background-color: rgba(0, 0, 0, 0.608);
+    position: relative;
+    
+
+}
+
+.header2 h1 {
+    /* text-align: center; */
+    font-size: 3EM;
+    transform: translate(70PX, 120PX);
+    color: white;
+    text-transform: capitalize;
+
+}
+
+.header2 .acceil {
+    color: white;
+    /* margin: 200PX 50PX; */
+    position: absolute;
+    top: 300PX;
+    left: 80PX;
+    text-decoration: none;
+    background-color: transparent;
+    border: 2PX solid white;
+    padding: 10PX 20PX;
+    text-transform: capitalize;
+    border-radius: 10PX;
+    transform: 1s;
+
+}
+
+.header2 a:hover {
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
+.leinput {
+    float: right;
+    line-height: 30PX;
+    border: 2PX SOLID white;
+    margin-right: 90PX;
+    width: 250PX;
+    height: 300PX;
+    border-radius: 20PX;
+    z-index: 90;
+    position: relative;
+    box-shadow: 0PX 10PX 20PX white inset;
+    backdrop-filter: blur(10PX);
+
+}
+
+.filtre {
+    width: 250PX;
+    height: 300PX;
+    border-radius: 20PX;
+    position: absolute;
+    filter: blur(20PX);
+    right: 90PX;
+
+    /* backdrop-filter: blur(300PX);
+    width: 100%;
+    height: ;
+    z-index: -1; */
+
+}
+
+.leinput h2 {
+    color: white;
+    text-align: center;
+    margin-top: 10PX;
+    font-size: 30PX;
+    text-transform: capitalize;
+    z-index: 99;
+}
+
+.leinput input:focus {
+    background-color: transparent;
+    color: white;
+}
+
+.essai {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+.essai img {
+    width: 90PX;
+    height: 70PX;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: 80PX;
+    left: 150PX;
+    transition: .5s;
+    animation: animate 2s ease infinite;
+
+}
+
+.leinput:hover {
+    animation-play-state: paused;
+}
+
+@keyframes animate {
+    50% {
+        rotate: y 120deg;
+
+    }
+}
+
+.leinput label {
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    transform: translateX(-100PX);
+    color: white;
+    text-transform: capitalize;
+
+}
+
+/* .essai input:focus~label,
+.essai input:valid~label{
+    transform: translate(-100PX,-100PX);
+} */
+.leinput input {
+    margin-left: 20PX;
+
+    padding: 3PX;
+    background-color: transparent;
+    /* color: white; */
+    text-transform: capitalize;
+    width: 120PX;
+    border-radius: 20PX;
+    border-bottom: 2PX solid white;
+    outline: none;
+    line-height: 20PX;
+    /* position: relative; */
+
+}
+
+.leinput textarea {
+    margin-left: 20PX;
+    padding: 3PX;
+    background-color: transparent;
+    color: white;
+    /* color: white; */
+    outline: none;
+    text-transform: capitalize;
+    border-radius: 20PX;
+    transform: translateY(-10PX);
+
+
+}
+
+.leinput select {
+    margin-left: 20PX;
+    padding: 3PX;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border-radius: 20PX;
+    border-bottom: 3PX solid white;
+    transform: translateY(-20PX);
+
+    text-transform: capitalize;
+}
+
+.leinput button {
+    margin-left: 65PX;
+    padding: 5PX;
+    /* background-color: aliceblue; */
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 20PX;
+    text-transform: capitalize;
+    transition: .5s;
+    border-radius: 15PX;
+    transform: translateY(-13PX);
+}
+
+.leinput button:hover {
+    background-color: white;
+    border: none;
+    color: black;
+}
+
+.sectionA {
+    margin: 200PX 150PX;
+    text-align: center;
+    /* background-color: red; */
+    height: 400PX;
+    transition: .7s;
+    /* visibility: hidden; */
+    transition: .5s ease;
+    
+}
+
+.galeri {
+    font-size: 2.5EM;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.paragraphe{
+    line-height: 20PX;
+    margin-bottom: 20PX;
+}
+.mere{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height:400PX ;
+    gap: 10PX;
+}
+.enf1{
+    background-image: url('PLAT3.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: .7s;
+    background-size: cover;
+}
+.enf1:hover{
+    transform: translateY(-10PX);
+}
+.enf2{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    transition: .7s;
+    gap: 10PX;
+}
+.penf{
+    background-image: url('gateau2.jpg');
+background-position: center;
+background-repeat: no-repeat;
+    transition: .7s;
+    background-size: cover;
+}
+.penf:hover{
+    transform: translateY(-10PX);
+    
+}
+.penf1{
+    background-image: url('PLAT.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: .7s;
+    background-size: cover;  
+}
+.penf1:hover{
+    transform: translateY(10PX);
+
+}
+.enf3{
+background-image: url('pizza.jpeg');
+background-position: center;
+background-repeat: no-repeat;
+    transition: .5s;
+    background-size: cover;
+/* object-fit: cover; */
+}
+.enf3:hover{
+    transform: translateY(-10PX);
+    
+}
+.sectionB{
+    margin: 100PX 50PX;
+    background-image: url('ESSAI.jpeg');
+background-position: center;
+background-repeat: no-repeat;
+    transition: .5s;
+    background-size: cover;
+    
+    /* filter: blur(10PX); */
+    backdrop-filter: blur(200PX);
+    /* z-index: -1; */
+    height: 400PX;
+
+}
+.head3{
+    background-color: rgba(0, 0, 0, 0.608);
+    height: 400PX;
+
+}
+.nb{
+    text-align: center;
+}
+.couleur{
+    color: chocolate;
+    font-size: 25PX;
+}
+.open{
+    font-size: 2.5EM;
+    margin-bottom: 20PX;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: white;
+}
+.mesh4{
+    display: flex;
+    justify-content: space-around;
+    margin: 10PX;
+    line-height: 20PX;
+}
+.lespan{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 2EM;
+    
+    /* margin: 10PX 0; */
+}
+.mes4{
+    /* background-color: green; */
+    /* height: 400PX; */
+    /* width: 500PX; */
+    height: 150PX;
+    transform: translateY(10PX);
+    margin: 0 50PX;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10PX;
+}
+.z1{
+    background-image: url('burger.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+        transition: .5s;
+        border-radius: 20PX;
+        background-size: cover;
+}
+.z2{
+    background-image: url('gateau\ chocola.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+        transition: .5s;
+        border-radius: 20PX;
+        background-size: cover;
+}
+.z3{
+    background-image: url('POULET2.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+        transition: .5s;
+        border-radius: 20PX;
+        background-size: cover;
+}
+.scal:hover{
+transform: scale(1.1);
+}
+.z4{
+    background-image: url('pizas2.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+        transition: .5s;
+        background-size: cover;
+        border-radius: 20PX;
+}
+.mes4 h2{
+    transform: translateY(145PX);
+    color: white;
+    background-color: black;
+    border-radius: 20PX;
+    border: 2PX solid;
+    text-transform: capitalize;
+    font-weight: bold;
+    height: 40PX;
+    
+}
+.mes4 span{
+    color: chocolate;
+}
